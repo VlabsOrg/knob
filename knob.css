@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.rotate{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotate-obj{
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+   
+}
+
+.rotate-btn:hover{
+    cursor: pointer;
+}
+
+.rotate-btn{
+    margin-top: -10rem;
+    padding: .75rem;
+    border-radius: 10px;
+    background-color: rgb(69, 69, 69);
+    color: #fff;
+    border: none;
+}
+
+.knob-dial{
+    margin-top: 2rem;
+}
+
+.dial{
+    z-index: -1;
+    position: absolute;
+    margin-top: -10.4rem;
+    scale: 1.3;
+}
